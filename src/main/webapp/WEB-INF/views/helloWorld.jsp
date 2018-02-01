@@ -3,11 +3,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Spring MVC Demo - Home page</title>
+<title>Hello World</title>
 </head>
 <body>
-    <h1>Spring MVC Demo - Home page</h1>
-    
-    <a href="show-form">Hello World form</a>
+    <h1>Hello World</h1>
+    <h2>Student name: ${param.studentName}</h2>
 </body>
 </html>
