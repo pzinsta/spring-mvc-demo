@@ -9,7 +9,7 @@
 
     <h1>Hello World form</h1>
 
-    <form action="process-form" method="POST">
+    <form action="process-form-with-request-param" method="POST">
         <input type="text" name="studentName" placeholder="What's your name?">
         <input type="submit">
     </form>
