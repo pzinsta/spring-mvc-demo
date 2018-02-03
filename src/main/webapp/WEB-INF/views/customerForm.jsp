@@ -7,9 +7,9 @@
 <title>Customer form</title>
 
 <style type="text/css">
-    .error {
-        color: red;
-    }
+.error {
+    color: red;
+}
 </style>
 </head>
 <body>
@@ -20,9 +20,15 @@
 
     <form:form action="process-form" modelAttribute="customer">
     First name: <form:input path="firstName" />
-    <br>
+        <br>
     Last name (*): <form:input path="lastName" />
         <form:errors path="lastName" cssClass="error" />
+
+        <br>
+    
+    Free passes: <form:input path="freePasses" />
+        <form:errors path="freePasses" cssClass="error" />
+        <br>
         <input type="submit">
     </form:form>
 
