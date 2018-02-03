@@ -1,4 +1,4 @@
-package com.pzinsta.springdemo.mvc;
+package com.pzinsta.springdemo.mvc.controller;
 
 import java.util.Optional;
 import javax.servlet.http.HttpServletRequest;

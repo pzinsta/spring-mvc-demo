@@ -1,4 +1,4 @@
-package com.pzinsta.springdemo.mvc;
+package com.pzinsta.springdemo.mvc.model;
 
 import java.util.List;
 
